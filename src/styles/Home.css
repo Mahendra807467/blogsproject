@@ -1,0 +1,37 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blog-form {
+    margin-bottom: 20px;
+}
+
+.blog-list {
+    display: grid;
+    gap: 20px;
+}
+
+.blog-item {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.blog-item h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.blog-item p {
+    font-size: 0.9em;
+}
+
+.blog-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.blog-item a:hover {
+    text-decoration: underline;
+}

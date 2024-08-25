@@ -1,0 +1,23 @@
+.blog-list {
+    display: grid;
+    gap: 20px;
+}
+
+.blog-item {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.blog-item h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.blog-item p {
+    font-size: 0.9em;
+}
+
+.blog-item a {
+    color: #00f;
+    text-decoration: none;
+};
